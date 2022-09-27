@@ -3,6 +3,51 @@
     padding: 0;
 }
 header{
-    background: url("./images/header-banner.jpg");
+    background: linear-gradient(45deg, #0000009f, #0000005d),url("./images/header-banner.jpg");
+    background-size: cover;
     height:100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#header h4{
+    font-size: 20px;
+}
+#header h1{
+    font-size: 60px;
+}
+#header p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background:#6c63ff;
+    padding:10px 30px;
+    
+}
+.btn:hover{
+    color: #6c63ff;
+    background: white;
+    border: 2px solid #6c63ff;
+    padding: 8px 30px;
+}
+#service h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.half-div{
+    width: 50%;
+}
+.half-div img{
+    width: 100%;
 }
